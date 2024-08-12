@@ -1,4 +1,5 @@
 n=int(input("Enter a number:"))
 i=0
-while i<5:
+for i in range(5):
   print(n*i)
+  i=i+1
